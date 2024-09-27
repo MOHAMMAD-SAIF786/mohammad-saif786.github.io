@@ -1,0 +1,479 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:sans-serif ;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(80, 174, 174);
+    padding: 10px;
+    text-align: center;
+    list-style: none;
+    font-size: 20px;
+    position: fixed;
+    top: 0%;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    text-transform: capitalize;
+}
+.header li{
+    color: gainsboro;
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.image{
+    text-align: center;
+    margin-top: 60px;
+}
+.navigation{
+    background-color: blue;
+    margin: 20px 20px 0px ;
+    /* width: 50px; */
+    padding: 20px;
+    
+}
+.navigation ul{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items:center;
+    color: white;
+}
+.navigation li:hover{
+    color: aqua;
+    background-color: cadetblue;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+.btn input,placeholder{
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 12px;
+    color: black;
+}
+  h1{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    color: whitesmoke;
+    background-color: blueviolet;
+    text-shadow: 2px 10px 5px black;
+}
+.content{
+    display: flex;
+    gap: 100px;
+    /* justify-content: space-between; */
+    background-color: blueviolet;
+}
+.content1{
+    margin: 100px;
+    align-items: center;
+    width: 700px;
+}
+.content1:hover{
+    text-shadow: 20px 10px 5px black;
+}
+.content1 h2{
+    color: beige;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.content1 p{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.content1 button{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+.content1 button:hover{
+    background-color: blueviolet;
+    border: none;
+}
+.image1{
+   margin-left: px;
+    margin-bottom: 10px;
+}
+.section-title{
+    width: 550px;
+    margin-left: 400px;
+}
+.section-title h1{
+    background-color: white;
+    color: black;
+}
+.section-title p{
+    text-align: center;
+    margin: 10px;
+}
+.content2{
+    display: flex;
+    gap: 15px;
+}
+.box1{
+   width: 300px;
+   padding: 20px;
+   height: 300px;
+}
+.box1 img{
+    margin-left: 80px;
+    padding-bottom: 10px;
+}
+.box1 h5,p{
+    text-align: center;
+}
+.box2{
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+ }
+ .box2 img{
+     margin-left: 80px;
+     padding-bottom: 10px;
+ }
+ .box2 h5,p{
+     text-align: center;
+ }
+ .box3{
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+ }
+ .box3 img{
+     margin-left: 80px;
+     padding-bottom: 10px;
+ }
+ .box3 h5,p{
+     text-align: center;
+ }
+ .box4{
+    width: 300px;
+    padding: 20px;
+    height: 300px;
+ }
+ .box4 img{
+     margin-left: 80px;
+     padding-bottom: 10px;
+ }
+ .box4 h5,p{
+     text-align: center;
+ }
+ .section-title2{
+    width: 550px;
+    margin-left: 400px;
+}
+ .section-title2 h3{
+    text-align: center;
+    padding: 20px;
+    text-transform: capitalize;
+    color: black;
+    font-size: 30px;
+    text-shadow: 2px 10px 5px black;
+}
+.section-title2 p{
+    text-align: center;
+    margin: 10px;
+}
+ .content3{
+    background-color: rgb(211, 238, 239);
+ }
+ .image2{
+    display: flex;
+    gap: 25px;
+    /* margin-left: 100px; */
+    padding: 50px 25px 50px 80px;
+ }
+ .image10{
+    width: 272px;
+    height: 400px;
+    border: 1px solid cyan;
+ }
+ .image10 h4{
+    text-align: center;
+    color:darkgray;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+ .image10 p{
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 0%;
+ }
+ .image11{
+    width: 272px;
+    height: 400px;
+    border: 1px solid cyan;
+ }
+ .image11 h4{
+    text-align: center;
+    color:darkgray;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+ .image11 p{
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 0%;
+ }
+ .image12{
+    width: 272px;
+    height: 400px;
+    border: 1px solid cyan;
+ }
+ .image12 h4{
+    text-align: center;
+    color:darkgray;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+ .image12 p{
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 0%;
+ }
+ .image13{
+    width: 272px;
+    height: 400px;
+    border: 1px solid cyan;
+ }
+ .image13 h4{
+    text-align: center;
+    color:darkgray;
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+ }
+ .image13 p{
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 0%;
+ }
+.content4{
+    background-color: white;
+    padding: 20px;
+}
+.portfolio{
+    padding: 50px 10px 80px 10px;
+    display: flex;
+    gap: 25px;
+    margin-right: 100px;
+}
+.image20{
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.image20 img{
+    padding: 10px;
+}
+.image20 h5{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.image20 p{
+    text-align: left;
+    padding: 20px;
+}
+.click {
+   text-transform: capitalize;
+   color: black;
+   background-color: blue;
+   padding: 10px;
+   /* position: absolute; */
+   display: inline-block;
+}
+.click:hover{
+    color: white;
+}
+.image21{
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.image21 img{
+    padding: 10px;
+}
+.image21 h5{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.image21 p{
+    text-align: left;
+    padding: 20px;
+}
+.image22{
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.image22 img{
+    padding: 10px;
+}
+.image22 h5{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.image22 p{
+    text-align: left;
+    padding: 20px;
+}
+.image23{
+    width: 300px;
+    height: 300px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+.image23 img{
+    padding: 10px;
+}
+.image23 h5{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.image23 p{
+    text-align: left;
+    padding: 20px;
+}
+.content5{
+    background-color:rgb(236, 245, 242);
+    display: flex;
+}
+.content6 {
+    width: 400px;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin-top: 12%;
+}
+.content6 h3,h5{
+    padding: 0px 0px 10px 0px ;
+    text-transform: capitalize;
+}
+.content6 h5{
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.content6 p{
+    text-align: left;
+}
+.content10{
+    display: flex;
+    gap: 20px;
+}
+.content7{
+    width: 500px;
+    height: 400px;
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin-top: 10%;
+}
+.content7 h2{
+    text-align: left;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.content7 p{
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.content7 input{
+    padding: 15px;
+    margin-left: 6px;
+    border: 2px solid rgb(211, 238, 239);
+    outline: none;
+}
+.message input{
+    margin-top: 20px;
+    padding: 0 0px 80px 10px;
+    width: 418px;
+}
+.footer{
+    width: 100%;
+    background-color: rgb(75, 75, 74);
+    display: flex;
+    justify-content: space-between;
+    /* gap: 30px; */
+    bottom: 0%;
+}
+.block1{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.block1 h5{
+    padding: 10px;
+    font-size: 20px;
+}
+.block1 p{
+    text-align: left;
+    padding: 10px;
+}
+.block2{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.block2 li{
+    list-style: none;
+    padding: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.block2 h5{
+    padding: 10px 0px 10px 0px ;
+    font-size: 20px;
+}
+.block2 i{
+    font-size: 20px;
+}
+.block3{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.block3 h4{
+    padding: 10px 0px 10px 0px ;
+    font-size: 20px;
+}
+.block3 h5{
+    padding: 10px 0px 10px 0px ;
+    font-size: 15px;
+}
+.block3 p{
+    text-align: left;
+    padding: 10px 0px 10px 0px ;
+}
+.block3 button{
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
